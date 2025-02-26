@@ -46,20 +46,19 @@
 // console.log("After sorting")
 // sortStack()
 // display()
-function sortedStack(stack){
-    let sort = []
+function sort(stack){
+    let tempStack = []
     while(stack.length>0){
-    let temp = stack.pop()
-    while(sort.length>0 && sort[sort.length-1]>temp){
-        stack.push(sort.pop())
+        let temp = stack.pop()
+        while(tempStack.length>0 && tempStack[tempStack.length-1]<temp){
+            stack.push(tempStack.pop())
+        }
+        tempStack.push(temp)
     }
-    sort.push(temp)
-}
-    while(sort.length>0){
-        stack.push(sort.pop())
+    while(tempStack.length>0){
+        stack.push(tempStack.pop())
     }
+    return stack
 }
-let stack = [3,4,6,5,21,2,123]
-sortedStack(stack)
-console.log(stack);
-
+let sorted = [4,2,1,78,43,2,5454,56]
+console.log(sort(sorted))
