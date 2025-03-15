@@ -50,7 +50,7 @@ class Bst{
         return node
     }
     
-    findMin(){
+    findMin(node){
         while(node.left){
             node = node.left
         }
