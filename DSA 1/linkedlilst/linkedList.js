@@ -56,17 +56,23 @@ class Linkedlist {
         }
         this.size --
     }
-    insert(val,index){
-        if(index<0 || index>=this.size){
-            return null
+ insert(val,index){
+        let node = new Node(val)
+        if(index==0){
+            node.next = this.head
+            this.head = node 
+            return
         }
-        let curr = this.head
         let prev = null
-        for(let i = 0 ; i< index;i++){
+        let curr = this.head
+        if(this.head.next == null){
+            this.head = node
+        }
+        for(let i =0; i < index;i++){
             prev = curr
             curr = curr.next
         }
-        const node = new Node(val)
+   
         node.next = curr
         prev.next = node
     }
