@@ -85,11 +85,14 @@ class Linkedlist{
         return false
     }
     duplicate(){
-        let curr = this.head
-        while(curr.data == curr.next.data){
-            curr.next = curr.next.next
+       let curr = this.head
+        while(curr){
+            if(curr.data == curr.next.data){
+                curr.next = curr.next.next
+            }else{
+                curr = curr.next
+            }
         }
-        curr = curr.next
     }
     print(){
         let curr = this.head
