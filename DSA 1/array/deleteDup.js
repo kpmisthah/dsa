@@ -1,15 +1,4 @@
 function duplicate(arr) {
-    // let res = []
-    // let freqMap = new Map()
-    // for(let num of arr){
-    //     freqMap.set(num,(freqMap.get(num)||0)+1)
-    // }
-    // for(let [num,count] of freqMap){
-    //     if(count>1){
-    //         res.push(num)
-    //     }
-    // }
-    // return res.length>1?res:[-1]
     let res = []
     let freq = {}
     for(let val of arr){
