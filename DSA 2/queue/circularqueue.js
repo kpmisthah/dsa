@@ -6,12 +6,7 @@
 //         this.size = 0
 //         this.front = 0
 //     }
-//     enqueue(x){
-//         if(this.capacity == this.size) return null
-//         let rear = (this.front+this.size)%this.capacity
-//          this.arr[rear] = x
-//         this.size++
-//     }
+
 //     dequeue(){
 //         if(this.size == 0)return null
 //         let res = this.arr[this.front]
