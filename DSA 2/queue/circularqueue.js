@@ -5,14 +5,6 @@
 // q.enqueue(20)
 // console.log(q.getFront(),q.getRear())
 // q.enqueue(30)
-// console.log(q.getFront(),q.getRear())
-// q.enqueue(40)
-// console.log(q.getFront(),q.getRear())
-// q.enqueue(50)
-// console.log(q.getFront(),q.getRear())
-// q.dequeue()
-// q.enqueue(60)
-// console.log(q.getFront(),q.getRear())
 class Myqueue{
     constructor(c){
         this.arr = new Array(c)
