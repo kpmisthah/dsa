@@ -6,14 +6,6 @@
 //         this.size = 0
 //         this.front = 0
 //     }
-
-//     dequeue(){
-//         if(this.size == 0)return null
-//         let res = this.arr[this.front]
-//         this.front = (this.front+1)%this.capacity
-//         this.size--
-//            return res
-//     }
 // }
 
 // let q = new Myqueue(5)
