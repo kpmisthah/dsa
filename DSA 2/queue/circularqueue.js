@@ -6,10 +6,6 @@
 //         this.size = 0
 //         this.front = 0
 //     }
-//     getFront(){
-//         if(this.size == 0) return null
-//         return this.arr[this.front]
-//     }
 //     getRear(){
 //         if(this.size == 0) return null
 //         let rear = (this.front+this.size-1)%this.capacity
