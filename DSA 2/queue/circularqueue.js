@@ -1,10 +1,3 @@
-
-// let q = new Myqueue(5)
-// q.enqueue(10)
-// console.log(q.getFront(),q.getRear())
-// q.enqueue(20)
-// console.log(q.getFront(),q.getRear())
-// q.enqueue(30)
 class Myqueue{
     constructor(c){
         this.arr = new Array(c)
