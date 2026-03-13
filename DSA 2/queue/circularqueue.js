@@ -1,4 +1,4 @@
-//circular queue
+
 // class Myqueue{
 //     constructor(c){
 //         this.arr = new Array(c).fill(null)
