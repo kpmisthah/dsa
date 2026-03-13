@@ -1,13 +1,4 @@
 
-// class Myqueue{
-//     constructor(c){
-//         this.arr = new Array(c).fill(null)
-//         this.capacity = c
-//         this.size = 0
-//         this.front = 0
-//     }
-// }
-
 // let q = new Myqueue(5)
 // q.enqueue(10)
 // console.log(q.getFront(),q.getRear())
