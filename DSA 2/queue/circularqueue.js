@@ -6,11 +6,6 @@
 //         this.size = 0
 //         this.front = 0
 //     }
-//     getRear(){
-//         if(this.size == 0) return null
-//         let rear = (this.front+this.size-1)%this.capacity
-//         return this.arr[rear]
-//     }
 //     enqueue(x){
 //         if(this.capacity == this.size) return null
 //         let rear = (this.front+this.size)%this.capacity
