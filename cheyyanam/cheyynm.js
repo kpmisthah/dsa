@@ -1,1 +1,1 @@
-// -Using a hash table, implement a function to find the first non-repeating
+// -Using a hash table, implement a function to find the
