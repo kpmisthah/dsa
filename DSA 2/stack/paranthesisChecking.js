@@ -1,4 +1,4 @@
-//  parenthesis checking using stack
+//  parenthesis checking
 function stackArray(str){
     let stack = []
     for(let i = 0 ; i< str.length ;i++){
