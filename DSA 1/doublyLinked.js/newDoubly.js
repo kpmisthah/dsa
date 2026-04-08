@@ -92,7 +92,7 @@ list.push(50)
 list.push(60)
 list.push(70)
 
-// list.shift()
+// list.shi
 console.log("before reversing")
 list.print()
 console.log("after reversing")
