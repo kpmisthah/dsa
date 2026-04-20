@@ -6,4 +6,4 @@ function arr(arr,i){
     arr.splice(i,1)
     return arr
 }
-console.log(arr([1,2,3,4,5,6],2))
+console.log(arr([1,2,3,4,5,6],2
