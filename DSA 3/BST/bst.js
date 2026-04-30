@@ -34,6 +34,7 @@ class Bst{
                 curr=curr.right
             }
         }
+    }
     
     inOrder(node){
         if(node == null)return
