@@ -1,3 +1,1 @@
-
-0.c
-yyeda
+yyed
